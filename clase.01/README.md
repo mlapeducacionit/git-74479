@@ -65,6 +65,8 @@ git status
 
 ```sh
 git commit -m "mensaje descriptivo"
+git commit -m "Agrego el git log y el git diff en la docu"
+git commit # Me abre el editor para yo poder escribir el titulo y el cuerpo de la descripcion. Ctrl + O -> Ctrl + X
 ```
 
 # Ver la diferencia entre el working directory y el local repo
