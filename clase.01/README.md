@@ -61,6 +61,15 @@ git status
 * Unmodified => Archivos que se cuentran en en el respositorio y no fueron modificado (Con respecto al repositorio)
 * Modified => Archivos que se encuentro en el repositorio pero difieren con lo que se encuentra actualmente en el directorio trabajo (Working directory)
 
+# Agregar a la zona de Staging 
+Marcar el archivo o archivos para que formen parte del siguiente commit
+
+```sh
+git add <nombre-archivo>
+git add clase.01/README.md
+git add . # Agrega todo a la zona de confirmacion (Staging area)
+```
+
 # Hacer un commit (backup, snapshot)
 
 ```sh
