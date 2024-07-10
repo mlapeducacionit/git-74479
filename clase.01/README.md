@@ -70,6 +70,13 @@ git add clase.01/README.md
 git add . # Agrega todo a la zona de confirmacion (Staging area)
 ```
 
+# Quitar de la zona de staging 
+
+```sh
+git restore --staged <nombre-archivo>
+git restore --staged clase.01/README.md
+```
+
 # Hacer un commit (backup, snapshot)
 
 ```sh
