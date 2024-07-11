@@ -49,8 +49,47 @@ git clone <url> ./ # copia el repositorio en el carpeta actual
 git clone https://github.com/mlapeducacionit/git-74479.git .
 ```
 
+## Traigo la metada del remoto al local
 
+```sh
+git fetch # Solo trae la metadata del repositorio remoto al local
+```
 
+## Actualizo el local con la info del remoto
+
+```sh
+git pull # Me trae los archivos actualizados, los nuevos commits que no existen en el local
+```
+
+**Nota**: Cuando hago pull, estoy haciendo un fetch+pull
 
 # RAMAS (Branches)
+Estructura auxiliar que nos permite trabajar sin ensuciar lo hecho hasta el momento.
+
+![git-ramas-extructura-tipica](_ref/ramas.png)
+
+## Listar ramas
+
+```sh
+git branch
+```
+
+## Crear una rama
+
+```sh
+git branch <nombre>
+git branch feature/ramas
+```
+
+## Cambiarse de rama
+
+```sh
+git switch <nombre>
+git switch feature/ramas
+git switch - # Toggle a la anterior
+git switch -c feature/demo # crea la rama y me mueve a esa rama
+```
+
+
+
 
