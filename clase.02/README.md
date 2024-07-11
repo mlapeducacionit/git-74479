@@ -98,6 +98,13 @@ git branch -d feature/demo # En el caso de que los cambios/commits no esten en n
 git branch -D feature/demo # Confirmacion de borrado. Borrado forzado
 ```
 
+## Merge (Fusiones)
+Ejemplo: Si quiero traerme los cambios de otra rama a main tengo que estar parado sobre main. 
+
+```sh
+git merge <nombre-rama-que-quiero-que-se-fusione-con-actual>
+git merge feature/ramas
+```
 
 
 
