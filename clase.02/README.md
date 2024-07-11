@@ -38,6 +38,17 @@ git push -u <repositorio-remoto> <rama/branch>
 git push -u origin main # -u -> sincronizar la rama local con la remota. Solo la primera vez se agrega el flag/bandera -u
 ```
 
+## Recuperar el repositorio local despues de una catastrofe
+Si tengo una copia del repositorio en el remoto puedo recuperar la informacion en el local.
+
+![clone](_ref/clone.png)
+
+```sh
+git clone <url> # me crea una carpeta con el nombre del repositorio en el directorio actual
+git clone <url> ./ # copia el repositorio en el carpeta actual
+git clone https://github.com/mlapeducacionit/git-74479.git .
+```
+
 
 
 
