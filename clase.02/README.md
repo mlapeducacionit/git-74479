@@ -90,6 +90,14 @@ git switch - # Toggle a la anterior
 git switch -c feature/demo # crea la rama y me mueve a esa rama
 ```
 
+## Borrar un rama
+
+```sh
+git branch -d <nombre-rama-a-borrar>
+git branch -d feature/demo # En el caso de que los cambios/commits no esten en ningun otro lado del repositorio no me va a dejar borrarla, me va a pedir confirmacion
+git branch -D feature/demo # Confirmacion de borrado. Borrado forzado
+```
+
 
 
 
