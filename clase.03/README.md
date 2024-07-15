@@ -96,4 +96,27 @@ git reset --hard <hash>
 ```
 
 
+# Alias en Git
+
+## Crear alias
+
+```sh
+git config --global alias.<nombre-al-alias> "<comando-de-git-sin-la-palabra-git>"
+git config --global alias.l "log --oneline"
+git config --global alias.ll "log --oneline --all --graph --decorate"
+git config --global alias.s "status --short"
+```
+
+## Borrado un alias
+
+```sh
+git config --global --unset alias.ll
+```
+
+## Listar los alias que tengo
+
+```sh
+git config --global --get-regexp alias
+```
+
 
