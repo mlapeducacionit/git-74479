@@ -40,13 +40,19 @@ git stash
 
 ## Listar todos los stashes
 
-```git 
+```sh 
 git stash list
 ```
 
 ## Recuperar un stash 
 No solo recupera el ultimo stash hecho y lo borra
 
-```git 
+```sh 
 git stash pop
+```
+
+# Stash con nombre personalizado
+
+```sh
+git stash -m "mensaje personalizado"
 ```
