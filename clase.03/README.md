@@ -28,3 +28,25 @@ git diff main
 
 * GitHub Desktop: <https://github.com/apps/desktop>
 * GitKraken: <https://www.gitkraken.com/>
+
+# Stashes
+Es una estructura de datos tipo pila.
+
+## Crear un stash
+
+```sh
+git stash
+```
+
+## Listar todos los stashes
+
+```git 
+git stash list
+```
+
+## Recuperar un stash 
+No solo recupera el ultimo stash hecho y lo borra
+
+```git 
+git stash pop
+```
