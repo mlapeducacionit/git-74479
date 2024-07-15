@@ -56,3 +56,10 @@ git stash pop
 ```sh
 git stash -m "mensaje personalizado"
 ```
+
+# Aplicar un stash en particular
+
+```sh
+git stash apply <numero-de-stash>
+git stash apply 1
+```
