@@ -15,16 +15,7 @@ git diff <nombre-rama>
 git diff main
 ```
 
-# Para obtener ayuda 
+# Herramientas visuales para la gestion de un repositorio de GIT
 
-```sh 
-git merge --help
-```
-
-# Tipos de fusiones y su resolucion
-
-* Fast-forward: Cuando no hay conflictos. Git soluciona automaticamente la fusion.
-
-* Conflicto: Git no puede resolver por si solo la fusion por ende necesita la ayuda del desarrollor o los desarrolladores involucrados en el codigo que se esta fusionando.
-
-* Algoritmo (fusion de 3 vias): Cuando git detecta cierto grado de modificacion, no utiliza el fast-forward. Utiliza diferentes tipos de algoritmos. Tambien soluciona por si mismo los posible inconvenientes en la fusion. Pero crea un nuevo commit intermedio, usando el ultimo commit de cada rama.
+* GitHub Desktop: <https://github.com/apps/desktop>
+* GitKraken: <https://www.gitkraken.com/>
