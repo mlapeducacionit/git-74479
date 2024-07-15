@@ -63,3 +63,10 @@ git stash -m "mensaje personalizado"
 git stash apply <numero-de-stash>
 git stash apply 1
 ```
+
+## Borrar un stash 
+
+```sh
+git stash drop # Borra el ultimo stash
+git stash drop 2 # Borra el stash elegido, en este caso el 2
+```
