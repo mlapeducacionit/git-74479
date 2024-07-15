@@ -70,3 +70,30 @@ git stash apply 1
 git stash drop # Borra el ultimo stash
 git stash drop 2 # Borra el stash elegido, en este caso el 2
 ```
+
+## RESET
+Me permite desahacer commits en el arbol de trabajo (working directory) y en area de preparacion (Staging Area) de git.
+
+### Tipos de reset
+
+* Reset Soft: Borrar el commit o commits seleccionados y coloca el contenido de esos commits en el SA (Staging Area)
+
+```sh
+git reset --soft <hash>
+```
+
+* Reset Mixed: (Default): Borrar el commit o commits seleccionados y coloca el contenido de esos commits en el WD (Working Directory)
+
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+
+* Reset Hard: Borrar el commit o commits seleccionados y elimina el contenido de esos commits. Es destructivo.
+
+```sh
+git reset --hard <hash>
+```
+
+
+
