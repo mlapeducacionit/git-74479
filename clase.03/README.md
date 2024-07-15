@@ -119,4 +119,20 @@ git config --global --unset alias.ll
 git config --global --get-regexp alias
 ```
 
+## GITHUB CLI
+Es un herramienta para interacturar con los repositorios remotos de GITHUB
+
+<https://cli.github.com/>
+
+
+## GIST
+Compartir código, pasar snippet a otras personas o información que quiero compartir.
+
+<https://gist.github.com/>
+
+Secretos => Solo la persona que tienen link puede verlo. No son privados
+Publicos => Se van indexar en los motores de búsqueda
+
+Pueden tener varios archivos y sus revisiones.
+
 
