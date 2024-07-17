@@ -12,3 +12,8 @@ Y si ya tengo ocupado. Puedo a partir de cualquier repositorio hacer un GitPages
 Settings > Pages
 
 ![Github](_ref/gitpages.png)
+
+## PDF con comandos (Machete)
+
+<https://training.github.com/downloads/github-git-cheat-sheet.pdf>
+<https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>
