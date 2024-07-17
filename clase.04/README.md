@@ -12,3 +12,6 @@ Y si ya tengo ocupado. Puedo a partir de cualquier repositorio hacer un GitPages
 Settings > Pages
 
 ![Github](_ref/gitpages.png)
+
+## Cherry Pick
+Permite seleccionar un commit  o varios de manera independiente y colocarlos en otra rama.
