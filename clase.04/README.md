@@ -13,6 +13,11 @@ Settings > Pages
 
 ![Github](_ref/gitpages.png)
 
+## PDF con comandos (Machete)
+
+<https://training.github.com/downloads/github-git-cheat-sheet.pdf>
+<https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>
+
 ## Cherry Pick
 Permite seleccionar un commit  o varios de manera independiente y colocarlos en otra rama.
 
