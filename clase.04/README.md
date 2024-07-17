@@ -27,6 +27,16 @@ Permite seleccionar un commit  o varios de manera independiente y colocarlos en 
 git cherry-pick <hash>
 ```
 
+Si hay conflicto, solucionarlo y hacer los siguientes comandos
+
+```sh
+git add .
+```
+
+```sh
+git cherry-pick --continue
+```
+
 ### Seleciono varios commit con extremos
 
 ```sh
