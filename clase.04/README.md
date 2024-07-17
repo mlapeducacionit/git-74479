@@ -33,3 +33,9 @@ git cherry-pick <hash>
 git cherry-pick <hash>^..<hash>
 ```
 
+### Seleciono varios commit sin extremos
+
+```sh
+git cherry-pick <hash>..<hash>
+```
+
