@@ -15,3 +15,10 @@ Settings > Pages
 
 ## Cherry Pick
 Permite seleccionar un commit  o varios de manera independiente y colocarlos en otra rama.
+
+### Selecioando un unico commit
+
+```sh
+git cherry-pick <hash>
+```
+
