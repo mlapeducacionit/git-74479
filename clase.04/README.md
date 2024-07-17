@@ -17,3 +17,35 @@ Settings > Pages
 
 <https://training.github.com/downloads/github-git-cheat-sheet.pdf>
 <https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>
+
+## Cherry Pick
+Permite seleccionar un commit  o varios de manera independiente y colocarlos en otra rama.
+
+### Selecioando un unico commit
+
+```sh
+git cherry-pick <hash>
+```
+
+Si hay conflicto, solucionarlo y hacer los siguientes comandos
+
+```sh
+git add .
+```
+
+```sh
+git cherry-pick --continue
+```
+
+### Seleciono varios commit con extremos
+
+```sh
+git cherry-pick <hash>^..<hash>
+```
+
+### Seleciono varios commit sin extremos
+
+```sh
+git cherry-pick <hash>..<hash>
+```
+
